@@ -1,6 +1,8 @@
 #!/bin/bash
 MAILDIR=/home/pi/pimailprint/maildata
-LOG=/home/pi/pimailprint/logs/printmail.log
+# Enable logs
+LOG=/dev/null
+#LOG=/home/pi/pimailprint/logs/printmail.log
 ATTACH_DIR=/home/pi/pimailprint/attachments
 
 fetchmail -f /home/pi/pimailprint/fetchmail.conf
